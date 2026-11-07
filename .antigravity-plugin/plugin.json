@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "pmnt",
+  "displayName": "pmnt",
+  "version": "1.0.0",
+  "description": "Create Ukrainian NBU QR invoices in your pmnt account from the agent chat. Payee details come from your account. Payers pay by bank transfer.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "List my businesses and bank accounts in pmnt",
+    "Create a pmnt invoice for 500 UAH for consulting services, valid for 7 days",
+    "Show the pmnt payment categories that fit an invoice for services"
+  ],
+  "author": {
+    "name": "pmnt",
+    "url": "https://pmnt.app"
+  },
+  "homepage": "https://pmnt.app/mcp/antigravity",
+  "repository": "https://github.com/pmnt-app/agent-plugins",
+  "license": "Proprietary",
+  "keywords": ["invoices", "payments", "qr-code", "nbu", "ukraine", "uah", "bank-transfer"]
+}

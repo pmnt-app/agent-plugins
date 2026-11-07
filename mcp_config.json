@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "invoices": {
+      "serverUrl": "https://mcp.pmnt.app"
+    }
+  }
+}

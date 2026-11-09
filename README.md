@@ -47,6 +47,26 @@ codex plugin marketplace add pmnt-app/agent-plugins
 codex plugin add pmnt@pmnt-app
 ```
 
+### VS Code
+
+Open [Install pmnt in VS Code](https://vscode.dev/redirect?url=vscode%3A%2F%2Fchat-plugin%2Finstall%3Fsource%3Dpmnt-app%252Fagent-plugins%26plugin%3Dpmnt)
+and confirm the prompts. VS Code adds the marketplace `pmnt-app/agent-plugins`
+and installs `pmnt`.
+
+Or run **Chat: Open Customizations**, add the marketplace
+`pmnt-app/agent-plugins` and install `pmnt`. Agent plugins need the
+`chat.plugins.enabled` setting.
+
+### GitHub Copilot CLI
+
+```
+copilot plugin marketplace add pmnt-app/agent-plugins
+copilot plugin install pmnt@pmnt-app
+```
+
+Then start a new `copilot` session. VS Code also finds the plugins that
+Copilot CLI installs.
+
 ### Google Antigravity
 
 ```
@@ -86,9 +106,9 @@ to the agent. The agent keeps the session and refreshes the token.
 
 | File | Read by |
 |---|---|
-| `.claude-plugin/marketplace.json` | Claude Code, Claude Desktop, claude.ai and Codex. It lists the plugin in `plugins/pmnt`. |
+| `.claude-plugin/marketplace.json` | Claude Code, Claude Desktop, claude.ai, Codex, VS Code and GitHub Copilot CLI. It lists the plugin in `plugins/pmnt`. |
 | `plugins/pmnt/.claude-plugin/plugin.json`, `plugins/pmnt/.mcp.json` | Claude Code, Claude Desktop, claude.ai |
-| `plugins/pmnt/plugin.json`, `plugins/pmnt/mcp.json` ([Agent Plugins](https://agent-plugins.org) 1.0.0) | Codex |
+| `plugins/pmnt/plugin.json`, `plugins/pmnt/mcp.json` ([Agent Plugins](https://agent-plugins.org) 1.0.0) | Codex, VS Code and GitHub Copilot CLI |
 | `.antigravity-plugin/plugin.json`, `mcp_config.json` | Google Antigravity (it installs the repository root) |
 
 The files hold only the public URL of the MCP server. They hold no client IDs,

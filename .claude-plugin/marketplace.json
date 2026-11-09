@@ -1,0 +1,15 @@
+{
+  "name": "pmnt-app",
+  "description": "pmnt plugins: create Ukrainian NBU QR invoices in your pmnt account from the chat.",
+  "owner": {
+    "name": "pmnt",
+    "url": "https://pmnt.app"
+  },
+  "plugins": [
+    {
+      "name": "pmnt",
+      "source": "./plugins/pmnt",
+      "description": "Create Ukrainian NBU QR invoices in your pmnt account from the chat."
+    }
+  ]
+}

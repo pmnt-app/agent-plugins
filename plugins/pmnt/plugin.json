@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pmnt",
+  "version": "1.0.0",
+  "description": "Create Ukrainian NBU QR invoices in your pmnt account from the chat. Payee details come from your account. Payers pay by bank transfer.",
+  "author": {
+    "name": "pmnt",
+    "url": "https://pmnt.app"
+  },
+  "homepage": "https://pmnt.app",
+  "repository": "https://github.com/pmnt-app/agent-plugins",
+  "license": "Proprietary",
+  "keywords": ["invoices", "payments", "qr-code", "nbu", "ukraine", "uah", "bank-transfer"]
+}

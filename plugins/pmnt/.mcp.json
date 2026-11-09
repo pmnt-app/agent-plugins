@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "invoices": {
+      "type": "http",
+      "url": "https://mcp.pmnt.app"
+    }
+  }
+}

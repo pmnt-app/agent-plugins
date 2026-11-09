@@ -67,9 +67,6 @@ copilot plugin install pmnt@pmnt-app
 Then start a new `copilot` session. VS Code also finds the plugins that
 Copilot CLI installs.
 
-If `copilot plugin` gives "Invalid command format", your Copilot CLI is too
-old. Update it, for example with `npm install -g @github/copilot@latest`.
-
 ### Google Antigravity
 
 ```
